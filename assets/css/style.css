@@ -12,4 +12,44 @@ html, body {
   font-size: 18px;
 }
 
+.webview {
+  width: 100%;
+  margin: auto;
+}
+.webview .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #29ae81;
+  color: #ffffff;
+}
+.webview .container h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.webview .container p {
+  font-size: 1rem;
+  text-align: center;
+}
+.webview .container .m-auto-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+.webview .container .m-auto-btn .btn-portfolio {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 160px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */
