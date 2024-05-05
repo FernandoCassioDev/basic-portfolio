@@ -52,4 +52,64 @@ html, body {
   color: #ffffff;
 }
 
+.webview .about {
+  width: 100%;
+}
+.webview .about .container {
+  padding: 10px;
+}
+.webview .about .container .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.webview .about .container .title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29ae81;
+}
+.webview .about .container .row {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.webview .about .container .row .c-photo {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.webview .about .container .row .c-photo .img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.webview .about .container .row .c-description {
+  width: 100%;
+}
+.webview .about .container .row .c-description p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.webview .about .container .row .c-description .skills {
+  width: 100%;
+}
+.webview .about .container .row .c-description .skills .h-item {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.webview .about .container .row .c-description .skills .h-item .h-title {
+  width: 100%;
+}
+.webview .about .container .row .c-description .skills .h-item .h-title h3 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
