@@ -111,5 +111,111 @@ html, body {
   font-size: 1rem;
   font-weight: bold;
 }
+.webview .about .container .row .c-description .skills .h-item .h-c-percent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 25px;
+}
+.webview .about .container .row .c-description .skills .h-item .h-c-percent .h-overall__percent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 6px;
+  border-radius: 6px;
+}
+.webview .about .container .row .c-description .skills .h-item .h-c-percent .h-overall__percent .h-knowledge__percent {
+  height: 100%;
+}
+.webview .about .container .row .c-description .skills .h-item .h-c-percent .h-overall__percent span {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.webview .services {
+  width: 100%;
+  background-color: #29ae81;
+  color: #ffffff;
+}
+.webview .services .container {
+  padding: 10px;
+}
+.webview .services .container .s-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .services .container .s-title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.webview .services .container .s-carrousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.webview .services .container .s-carrousel-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+}
+.webview .services .container .s-carrousel-item {
+  min-height: 260px;
+  background-color: #ffffff;
+  color: #29ae81;
+}
+.webview .services .container .s-carrousel-item .title {
+  width: 100%;
+  padding: 10px;
+}
+.webview .services .container .s-carrousel-item .title p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.webview .services .container .s-carrousel-item .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 180px;
+}
+.webview .services .container .s-carrousel-item .body .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.webview .services .container .s-carrousel-item .body .icon span i {
+  font-size: 38px;
+}
+.webview .services .container .s-carrousel-item .body .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 10px;
+}
+.webview .services .container .s-carrousel-item .body .text p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.4rem;
+}
 
 /*# sourceMappingURL=style.css.map */
