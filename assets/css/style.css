@@ -218,4 +218,154 @@ html, body {
   font-size: 1.4rem;
 }
 
+.webview .projects {
+  width: 100%;
+  min-height: 100vh;
+}
+.webview .projects .container {
+  padding: 10px;
+}
+.webview .projects .container .p-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .projects .container .p-title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29ae81;
+}
+.webview .projects .container .p-projects {
+  width: 100%;
+}
+.webview .projects .container .p-projects .project {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 10px;
+}
+.webview .projects .container .p-projects .project .photos {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.webview .projects .container .p-projects .project .photos .img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.webview .projects .container .p-projects .project .photos .img:hover .description {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #29ae81;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+.webview .projects .container .p-projects .project .photos .img:hover .description p {
+  display: block;
+  color: #ffffff;
+}
+.webview .projects .container .p-projects .project .photos .img img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.webview .projects .container .p-projects .project .photos .description {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+}
+.webview .projects .container .p-projects .project .photos .description p {
+  display: none;
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.webview .contact {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.webview .contact .container {
+  padding: 10px;
+}
+.webview .contact .container .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .contact .container .title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29ae81;
+}
+.webview .contact .container .form {
+  width: 100%;
+}
+.webview .contact .container .form form {
+  width: 100%;
+}
+.webview .contact .container .form form .form-group {
+  width: 100%;
+}
+.webview .contact .container .form form .form-group .controls {
+  width: 100%;
+  min-height: 70px;
+}
+.webview .contact .container .form form .form-group .controls label {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  color: #29ae81;
+}
+.webview .contact .container .form form .form-group .controls input {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #29ae81;
+}
+.webview .contact .container .form form .form-group .controls input:active {
+  border: 1px solid #29ae81;
+  border-radius: 2px;
+}
+.webview .contact .container .form form .form-group .controls input:focus {
+  border: 1px solid #29ae81;
+  border-radius: 2px;
+}
+.webview .contact .container .form form .form-group .controls textarea {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid #29ae81;
+  outline: none;
+}
+.webview .contact .container .form form .form-group .controls textarea:active {
+  border: 1px solid #29ae81;
+  border-radius: 2px;
+}
+.webview .contact .container .form form .form-group .controls textarea:focus {
+  border: 1px solid #29ae81;
+  border-radius: 2px;
+}
+
 /*# sourceMappingURL=style.css.map */

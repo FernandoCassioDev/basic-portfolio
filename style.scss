@@ -256,3 +256,182 @@ html, body {
         }
     }
 }
+
+.webview{
+
+    .projects{
+        width: 100%;
+        min-height: 100vh;
+
+        .container{
+            padding: 10px;
+
+            .p-title{
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+
+                h2{
+                    @include config.font-subtitle;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    color: config.$color-green;
+                }
+            }
+
+            .p-projects{
+                width: 100%;
+
+                .project{
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 100%;
+                    grid-template-rows: repeat(3, auto);
+                    row-gap: 10px;
+
+                    .photos{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 4px;
+
+                        .img{
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+
+                            &:hover {
+
+                                .description{
+                                    position: absolute;
+                                    display: flex;
+                                    width: 100%;
+                                    height: 50px;
+                                    background-color: #29ae81;
+                                    bottom: 0;
+                                    left: 0;
+                                    z-index: 9999;
+
+                                    p{
+                                        display: block;
+                                        color: config.$color-white;
+                                    }
+                                }
+                            }
+
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                background-size: cover;
+                                background-repeat:no-repeat ;
+                                background-position: center;
+                            }
+                        }
+
+                        .description{
+                            display: none;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            min-height: 50px;
+
+                            p{
+                                display: none;
+                                @include config.font-paragraph;
+                                color: config.$color-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.webview {
+
+    .contact{
+        width: 100%;
+        margin-bottom: 30px;
+
+        .container{
+            padding: 10px;
+
+            .title{
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+
+                h2{
+                    @include config.font-subtitle;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    color: config.$color-green;
+                }
+            }
+
+            .form{
+                width: 100%;
+
+                form{
+                    width: 100%;
+
+                    .form-group{
+                        width: 100%;
+
+                        .controls{
+                            width: 100%;
+                            min-height: 70px;
+
+                            label{
+                                @include config.font-paragraph;
+                                font-weight: bold;
+                                color: config.$color-green;
+                            }
+
+                            input{
+                                @include config.font-paragraph;
+                                width: 100%;
+                                height: 30px;
+                                padding: 10px;
+                                border: 1px solid config.$color-green;
+
+                                &:active{
+                                    border: 1px solid config.$color-green;
+                                    border-radius: 2px;
+                                }
+
+                                &:focus {
+                                    border: 1px solid config.$color-green;
+                                    border-radius: 2px;
+                                }
+                            }
+
+                            textarea{
+                                @include config.font-paragraph;
+                                width: 100%;
+                                height: 180px;
+                                padding: 10px;
+                                border: 1px solid config.$color-green;
+                                outline: none;
+
+                                &:active{
+                                    border: 1px solid config.$color-green;
+                                    border-radius: 2px;
+                                }
+
+                                &:focus{
+                                    border: 1px solid config.$color-green;
+                                    border-radius: 2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
