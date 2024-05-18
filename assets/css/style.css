@@ -590,6 +590,7 @@ body {
   .webview .about .container .row .c-photo img {
     width: 100%;
     max-width: 400px;
+    border-radius: 100%;
   }
   .webview .about .container .row .c-description {
     padding: 10px;
