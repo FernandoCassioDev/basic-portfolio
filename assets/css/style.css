@@ -149,11 +149,12 @@ body {
   margin: auto;
   margin-bottom: 30px;
 }
-.webview .about .container .row .c-photo .img {
+.webview .about .container .row .c-photo img {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  border-radius: 100%;
 }
 .webview .about .container .row .c-description {
   width: 100%;

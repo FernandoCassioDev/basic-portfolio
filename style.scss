@@ -93,11 +93,12 @@ body {
           margin: auto;
           margin-bottom: 30px;
 
-          .img {
+          img {
             width: 100%;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: top;
+            border-radius: 100%;
           }
         }
 
